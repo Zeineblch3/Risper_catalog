@@ -63,13 +63,15 @@ useEffect(() => {
 }, [page]);
   return (
     <>
-      <main className=" pointer-events-none select-none z-20 fixed  inset-0  flex justify-between flex-col">
-        <a
-          className="pointer-events-auto mt-10 ml-10"
-          href="https://rispertravel.com/"
-        >
-          <img className="w-28" src="/images/logo.png" />
-        </a>
+      <main className="pointer-events-none select-none z-20 fixed inset-0 flex justify-between flex-col">
+  <a
+    className="pointer-events-auto mt-10 ml-10"
+    href="https://rispertravel.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img className="w-[190px] h-auto" src="/images/logo.png" alt="Logo" />
+  </a>
         
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
